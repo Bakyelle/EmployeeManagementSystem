@@ -101,11 +101,11 @@ CREATE TABLE Employee (
 
 ### **Login Form**
 ![Login Screenshot](Screenshots/Login.png)
-**A form with fields for username and password, along with a login button. It includes a hide/show password feature.
-** 
+A form with fields for username and password, along with a login button. It includes a hide/show password feature.
+
 ### **Signup Form**
 ![Signup Screenshot](Screenshots/Signup.png)
- **A form allowing new managers to create an account by entering a username and password. It includes a hide/show password feature.**
+A form allowing new managers to create an account by entering a username and password. It includes a hide/show password feature.
 
 ### **Dashboard Form**
 ![Dashboard Screenshot](Screenshots/Dashboard.png)
@@ -116,7 +116,7 @@ CREATE TABLE Employee (
 
 ### **Add Employee Form**
 ![Add Employee Form Screenshot](Screenshots/AddEmployee.png)
-**A form with fields to enter employee details, including first name, surname, gender, phone number, address, position, and status, along with add/update/delete buttons.** 
+A form with fields to enter employee details, including first name, surname, gender, phone number, address, position, and status, along with add/update/delete buttons.
 
 ### **Salary Form**
 ![Salary Screenshot](Screenshots/Salary.png)
@@ -136,9 +136,9 @@ CREATE TABLE Employee (
 
 
 * ![Login form with username field, password field with visibility toggle, and login buttons.](Screenshots/Login.png)*  
-**Login form with username field, password field with visibility toggle, and login buttons**
+Login form with username field, password field with visibility toggle, and login buttons
 * ![SignUp form with username field, password field with visibility toggle, and Signup buttons.](Screenshots/Signup.png)* 
-**SignUp form with username field, password field with visibility toggle, and Signup buttons.**
+SignUp form with username field, password field with visibility toggle, and Signup buttons.
 
 
 ### **6.2 Dashboard Overview**
@@ -149,7 +149,7 @@ CREATE TABLE Employee (
   - Inactive Employees: `SELECT COUNT(*) FROM Employee WHERE Status = 'Inactive'`  
 
 *![Dashboard with three summary cards showing metrics in numeric and graphical format.](Screenshots/Dashboard.png)*  
-**Dashboard with three summary cards showing metrics in numeric and graphical format.**
+Dashboard with three summary cards showing metrics in numeric and graphical format.
 
 
 ### **6.3 Employee Management(Employees.vb)**
@@ -160,7 +160,7 @@ CREATE TABLE Employee (
 - **Photo Upload**: Converts image to VARBINARY  
 
 *![Employee form with fields matching the database table, plus an image upload button and preview area.](Screenshots/AddEmployee.png)*  
-**Employee form with fields matching the database table, plus an image upload button and preview area.**
+Employee form with fields matching the database table, plus an image upload button and preview area.
 
 
 ### **6.4 Salary Management (Salary.vb)**
@@ -169,7 +169,7 @@ CREATE TABLE Employee (
 - Uses same Employee table  
 
 *![ Salary form with employee details in a read-only section and editable salary field with update button.](Screenshots/Salary.png)*  
-** Salary form with employee details in a read-only section and editable salary field with update button.**
+Salary form with employee details in a read-only section and editable salary field with update button.
 
 ### **6.5 Database Helper Class (EmployeeData.vb)**  
 ```vb
