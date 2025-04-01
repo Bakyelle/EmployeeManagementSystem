@@ -134,8 +134,11 @@ CREATE TABLE Employee (
 - New users can sign up to create an account.
 - Passwords can be hidden or displayed.
 
-*( ![Login form with username field, password field with visibility toggle, and login buttons.](Screenshots/Login.png))*  
-*( ![SignUp form with username field, password field with visibility toggle, and Signup buttons.](Screenshots/Signup.png))* 
+
+* ![Login form with username field, password field with visibility toggle, and login buttons.](Screenshots/Login.png)*  
+**Login form with username field, password field with visibility toggle, and login buttons**
+* ![SignUp form with username field, password field with visibility toggle, and Signup buttons.](Screenshots/Signup.png)* 
+**SignUp form with username field, password field with visibility toggle, and Signup buttons.**
 
 
 ### **6.2 Dashboard Overview**
@@ -145,7 +148,8 @@ CREATE TABLE Employee (
   - Active Employees: `SELECT COUNT(*) FROM Employee WHERE Status = 'Active'`  
   - Inactive Employees: `SELECT COUNT(*) FROM Employee WHERE Status = 'Inactive'`  
 
-*(![Dashboard with three summary cards showing metrics in numeric and graphical format.](Screenshots/Dashboard.png))*  
+*![Dashboard with three summary cards showing metrics in numeric and graphical format.](Screenshots/Dashboard.png)*  
+**Dashboard with three summary cards showing metrics in numeric and graphical format.**
 
 
 ### **6.3 Employee Management(Employees.vb)**
@@ -155,7 +159,8 @@ CREATE TABLE Employee (
 - **Delete**: Soft delete (sets `DeleteDate` instead of physical deletion)  
 - **Photo Upload**: Converts image to VARBINARY  
 
-*( ![Employee form with fields matching the database table, plus an image upload button and preview area.](Screenshots/AddEmployee.png))*  
+*![Employee form with fields matching the database table, plus an image upload button and preview area.](Screenshots/AddEmployee.png)*  
+**Employee form with fields matching the database table, plus an image upload button and preview area.**
 
 
 ### **6.4 Salary Management (Salary.vb)**
@@ -163,7 +168,8 @@ CREATE TABLE Employee (
 - Editable: Salary field  
 - Uses same Employee table  
 
-*(![ Salary form with employee details in a read-only section and editable salary field with update button.](Screenshots/Salary.png))*  
+*![ Salary form with employee details in a read-only section and editable salary field with update button.](Screenshots/Salary.png)*  
+** Salary form with employee details in a read-only section and editable salary field with update button.**
 
 ### **6.5 Database Helper Class (EmployeeData.vb)**  
 ```vb
